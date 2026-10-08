@@ -6,7 +6,7 @@ My live trading code stays private. What is public here: tools that run on their
 
 ### What I build
 
-- **Trading bots and execution.** Event-driven bots on Solana and EVM L2s, built around latency: streaming feeds, transaction landing, reconnects that do not get you rate-limited or banned.
+- **Trading bots and execution.** Event-driven bots on Solana and EVM L2s, built around latency: streaming feeds, transaction landing, reconnects that do not get you rate-limited or banned. My Robinhood Chain bot goes from decision to a signed, sent transaction in about 0.18 ms (measured inside the bot on a small cloud server; the code is private).
 - **Data pipelines.** On-chain event decoders, order-book and price collectors, wallet analytics, alerts.
 - **Automation.** Telegram bots, e-mail and LLM pipelines, monitoring.
 
