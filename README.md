@@ -1,19 +1,20 @@
 ## Hi, I'm Denys
 
-I build Telegram bots, AI assistants and agent tools, mostly alone. I test them before I claim anything about them, and I publish the ones that failed.
+I build low-latency trading bots, automation and data pipelines on Solana, EVM chains and prediction markets.
 
-Built with AI coding agents (Claude, Codex).
+My live trading code stays private. What is public here: tools that run on their own, data collectors, and honest write-ups of strategies I stopped.
+
+### What I build
+
+- **Trading bots and execution.** Event-driven bots on Solana and EVM L2s, built around latency: streaming feeds, transaction landing, reconnects that do not get you rate-limited or banned.
+- **Data pipelines.** On-chain event decoders, order-book and price collectors, wallet analytics, alerts.
+- **Automation.** Telegram bots, e-mail and LLM pipelines, monitoring.
 
 ### Start here
 
-- [agent-trust-gate](https://github.com/Dennim89/agent-trust-gate): a permission check for AI-agent tool calls that does not ask the model. Python standard library, offline tests.
+- [prediction-market-postmortems](https://github.com/Dennim89/prediction-market-postmortems): why a Kalshi and Polymarket bot on BTC 15-minute markets stopped, with a tested Polymarket data collector.
 - [hyperliquid-copytrade-study](https://github.com/Dennim89/hyperliquid-copytrade-study): a pre-registered test of whether Hyperliquid leaderboard winners stay winners. They did not.
-- [prediction-market-postmortems](https://github.com/Dennim89/prediction-market-postmortems): why a Kalshi and Polymarket bot on BTC 15-minute markets stopped, with a tested data collector.
-
-### What is here
-
-- Tools: small repos that run. Each README says on the first screen what the tool does and for whom, shows real output, and states a status: works, experimental or archived.
-- Postmortems: strategies and products I stopped, with what I tried, how I measured it and why I stopped. No profit claims.
+- [agent-trust-gate](https://github.com/Dennim89/agent-trust-gate): a permission check for AI-agent tool calls that does not ask the model.
 
 ### Rules I keep
 
@@ -21,6 +22,6 @@ Built with AI coding agents (Claude, Codex).
 - Every number says where it comes from: a test in the repo, a published result file, or notes written at the time.
 - No profit screenshots. No "passive income".
 
-### Contact
+### Work with me
 
-Work: [Upwork profile](https://www.upwork.com/freelancers/~01f7a3cf84e792f019). Anything else: open an issue on the repo it is about.
+[Upwork profile](https://www.upwork.com/freelancers/~01f7a3cf84e792f019). Built with AI coding agents (Claude, Codex).
