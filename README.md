@@ -12,7 +12,9 @@ My live trading code stays private. What is public here: tools that run on their
 
 ### Start here
 
-- [prediction-market-postmortems](https://github.com/Dennim89/prediction-market-postmortems): why a Kalshi and Polymarket bot on BTC 15-minute markets stopped, with a tested Polymarket data collector.
+- [prediction-market-postmortems](https://github.com/Dennim89/prediction-market-postmortems): three prediction-market strategies that did not survive their audits, with a tested Polymarket data collector and evaluation harnesses.
+- [polymarket-wallet-analyzer](https://github.com/Dennim89/polymarket-wallet-analyzer): Go library and CLI that checks whether a Polymarket wallet beats the prices it paid, trades like a bot or farms near-certain outcomes.
+- [upwork-alert-triage](https://github.com/Dennim89/upwork-alert-triage): reads Upwork job-alert e-mails, scores the jobs and sends Telegram cards with a draft. You press Send yourself.
 - [hyperliquid-copytrade-study](https://github.com/Dennim89/hyperliquid-copytrade-study): a pre-registered test of whether Hyperliquid leaderboard winners stay winners. They did not.
 - [agent-trust-gate](https://github.com/Dennim89/agent-trust-gate): a permission check for AI-agent tool calls that does not ask the model.
 
